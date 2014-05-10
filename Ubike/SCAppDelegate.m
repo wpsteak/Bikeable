@@ -9,11 +9,15 @@
 #import "SCAppDelegate.h"
 #import "MovesAPI.h"
 #import "SCLoginViewController.h"
+#import <Parse/Parse.h>
 
 @implementation SCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"uR6lNJB6eonp607A825z03Otg13AqlqdYX7jyi37"
+                  clientKey:@"m4ZOmVdzB1lNwcoZt6d0xTUv6kjIyRpEmD3ZmA6K"];
+
     [[MovesAPI sharedInstance] setShareMovesOauthClientId:@"IJg69GS6DEqZUXoW57zcAZRNPPggjg_6"
                                         oauthClientSecret:@"73VJ389fUwgP013i0qeZx9h5Ykk1GU70c19N33Wmrja2300Xb8t0853lKFAp7gqA"
                                         callbackUrlScheme:@"CityBike"];

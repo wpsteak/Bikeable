@@ -9,6 +9,7 @@
 #import "SCLoginViewController.h"
 #import "MovesAPI.h"
 #import "NSObject+LogProperties.h"
+#import <Parse/Parse.h>
 
 @interface SCLoginViewController ()
 
@@ -89,7 +90,7 @@
 
 - (void)printStoryLine:(NSArray *)storyLines {
     NSMutableString *logString = [[NSMutableString alloc] init];
-    [logString appendFormat:@"storyLines count: %i\n", storyLines.count];
+    [logString appendFormat:@"storyLines count: %lu\n", (unsigned long)storyLines.count];
     
     NSMutableArray *cyclingCollection = [NSMutableArray array];
     
@@ -99,7 +100,7 @@
         for(MVSegment *segment in storyLine.segments) {
             for(MVActivity *activity in segment.activities) {
                 if ([@"cycling" isEqualToString:activity.activity]) {
-                    NSLog(@"%d",[activity.trackPoints count]);
+                    NSLog(@"%lu",(unsigned long)[activity.trackPoints count]);
                     for(MVTrackPoint *trackPoint in activity.trackPoints) {
                         NSNumber *lat = [NSNumber numberWithFloat:trackPoint.lat];
                         NSNumber *lon = [NSNumber numberWithFloat:trackPoint.lon];
@@ -114,8 +115,58 @@
         if ([cyclingTrackPoints count] > 0) {
             [cyclingCollection addObject:cyclingTrackPoints];
         }
-
+//        NSLog(@"%@", cyclingCollection);
+        
+        for (NSArray* routeRaw in cyclingCollection) {
+            
+            for (NSArray* po in routeRaw) {
+                NSLog(@"Lat: %@", po[0]);
+                NSLog(@"Lng: %@", po[1]);
+                NSLog(@"----");
+            }
+            NSLog(@"============");
+        }
+        
     }
 }
+
+-(void) saveRoutesHard:(NSArray *)cyclingCollection
+{
+    PFUser *user = [PFUser user];
+    user.username = @"Prince";
+    user.password = @"1234";
+    
+    [user signUpInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+        if (!error) {
+            
+            int i=1;
+            for (NSArray* routeRaw in cyclingCollection) {
+                
+                PFObject *routes = [PFObject objectWithClassName:@"BikeRoutes"];
+                //        routes[@"UserId"] =
+                
+                routes[@"RoutesName"] = [NSString stringWithFormat:@"Routes%d", i];
+                i++;
+                routes[@"userId"]=user.objectId;
+                [routes saveInBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
+                    if(!error)
+                    {
+                        for (NSArray* po in routeRaw) {
+                            NSNumber *lat=po[0];
+                            NSNumber *lng=po[1];
+                            PFObject *point = [PFObject objectWithClassName:@"BikeRoutePoint"];
+                            point[@"RoutesId"] = routes.objectId;
+                            point[@"location"] = [PFGeoPoint geoPointWithLatitude:[lat doubleValue] longitude:[lng doubleValue]];
+                            [point saveInBackground];
+                        }
+                    }
+                }];
+                
+            }
+        }
+    }];
+}
+
+
 
 @end
