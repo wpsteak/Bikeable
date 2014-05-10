@@ -12,6 +12,11 @@
 		B28CE3BD191E22A20018CB41 /* SCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */; };
 		B28CE3C2191E39CB0018CB41 /* dataTo101.json in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3C1191E39CB0018CB41 /* dataTo101.json */; };
 		B28CE3C4191E3F730018CB41 /* bikeshop.json in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3C3191E3F730018CB41 /* bikeshop.json */; };
+		B28CE3C6191E48920018CB41 /* dataTo101-2.json in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3C5191E48920018CB41 /* dataTo101-2.json */; };
+		F477FB7D191E4485009A6A47 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F477FB7C191E4485009A6A47 /* Icon.png */; };
+		F477FB7F191E4503009A6A47 /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = F477FB7E191E4503009A6A47 /* icon120.png */; };
+		F477FB82191E45A0009A6A47 /* bike_image-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F477FB80191E45A0009A6A47 /* bike_image-01.png */; };
+		F477FB83191E45A0009A6A47 /* cloud_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F477FB81191E45A0009A6A47 /* cloud_white.png */; };
 		F4892889191DEDDD004092E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4892888191DEDDD004092E7 /* Foundation.framework */; };
 		F489288B191DEDDD004092E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288A191DEDDD004092E7 /* CoreGraphics.framework */; };
 		F489288D191DEDDD004092E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288C191DEDDD004092E7 /* UIKit.framework */; };
@@ -52,6 +57,8 @@
 		F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */; };
 		F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */; };
 		F4B00716191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */; };
+		F4B00718191E385900AF4902 /* points.json in Resources */ = {isa = PBXBuildFile; fileRef = F4B00717191E385900AF4902 /* points.json */; };
+		F4B0071B191E3D2B00AF4902 /* SCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B0071A191E3D2B00AF4902 /* SCTool.m */; };
 		F4DECFCA191DFA7100CD25B3 /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */; };
 		F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */; };
 		F4DECFCE191DFF1600CD25B3 /* NSObject+LogProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFCD191DFF1600CD25B3 /* NSObject+LogProperties.m */; };
@@ -73,9 +80,14 @@
 		B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCMainViewController.xib; sourceTree = "<group>"; };
 		B28CE3C1191E39CB0018CB41 /* dataTo101.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataTo101.json; sourceTree = "<group>"; };
 		B28CE3C3191E3F730018CB41 /* bikeshop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bikeshop.json; sourceTree = "<group>"; };
+		B28CE3C5191E48920018CB41 /* dataTo101-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dataTo101-2.json"; sourceTree = "<group>"; };
 		CF99054C05434CB1BFD3B075 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EEE886B64F1F4ED59991D62C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4892885191DEDDD004092E7 /* Ubike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F477FB7C191E4485009A6A47 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F477FB7E191E4503009A6A47 /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = "<group>"; };
+		F477FB80191E45A0009A6A47 /* bike_image-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_image-01.png"; sourceTree = "<group>"; };
+		F477FB81191E45A0009A6A47 /* cloud_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_white.png; sourceTree = "<group>"; };
+		F4892885191DEDDD004092E7 /* Bikeable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bikeable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4892888191DEDDD004092E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F489288A191DEDDD004092E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F489288C191DEDDD004092E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -136,6 +148,9 @@
 		F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0006_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0007_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0008_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00717191E385900AF4902 /* points.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = points.json; sourceTree = "<group>"; };
+		F4B00719191E3D2B00AF4902 /* SCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTool.h; sourceTree = "<group>"; };
+		F4B0071A191E3D2B00AF4902 /* SCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTool.m; sourceTree = "<group>"; };
 		F4DECFC7191DFA7100CD25B3 /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoginViewController.h; sourceTree = "<group>"; };
 		F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginViewController.m; sourceTree = "<group>"; };
 		F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCLoginViewController.xib; sourceTree = "<group>"; };
@@ -184,7 +199,7 @@
 		F4892886191DEDDD004092E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4892885191DEDDD004092E7 /* Ubike.app */,
+				F4892885191DEDDD004092E7 /* Bikeable.app */,
 				F48928A0191DEDDD004092E7 /* UbikeTests.xctest */,
 			);
 			name = Products;
@@ -205,6 +220,8 @@
 		F489288E191DEDDD004092E7 /* Ubike */ = {
 			isa = PBXGroup;
 			children = (
+				F4B00719191E3D2B00AF4902 /* SCTool.h */,
+				F4B0071A191E3D2B00AF4902 /* SCTool.m */,
 				F4DECFCC191DFF1600CD25B3 /* NSObject+LogProperties.h */,
 				F4DECFCD191DFF1600CD25B3 /* NSObject+LogProperties.m */,
 				F4892897191DEDDD004092E7 /* SCAppDelegate.h */,
@@ -212,11 +229,12 @@
 				F4DECFC7191DFA7100CD25B3 /* SCLoginViewController.h */,
 				F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */,
 				F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */,
-				F489289A191DEDDD004092E7 /* Images.xcassets */,
-				F489288F191DEDDD004092E7 /* Supporting Files */,
 				B28CE3B9191E22A20018CB41 /* SCMainViewController.h */,
 				B28CE3BA191E22A20018CB41 /* SCMainViewController.m */,
 				B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */,
+				B28CE3C5191E48920018CB41 /* dataTo101-2.json */,
+				F489289A191DEDDD004092E7 /* Images.xcassets */,
+				F489288F191DEDDD004092E7 /* Supporting Files */,
 			);
 			path = Ubike;
 			sourceTree = "<group>";
@@ -224,6 +242,7 @@
 		F489288F191DEDDD004092E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4B00717191E385900AF4902 /* points.json */,
 				F4892890191DEDDD004092E7 /* Ubike-Info.plist */,
 				B28CE3C3191E3F730018CB41 /* bikeshop.json */,
 				B28CE3C1191E39CB0018CB41 /* dataTo101.json */,
@@ -320,6 +339,10 @@
 		F4B00700191E35C300AF4902 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F477FB80191E45A0009A6A47 /* bike_image-01.png */,
+				F477FB81191E45A0009A6A47 /* cloud_white.png */,
+				F477FB7C191E4485009A6A47 /* Icon.png */,
+				F477FB7E191E4503009A6A47 /* icon120.png */,
 				F4B00701191E35C300AF4902 /* bike-01.png */,
 				F4B00702191E35C300AF4902 /* bike_bg-01.png */,
 				F4B00703191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png */,
@@ -354,7 +377,7 @@
 			);
 			name = Ubike;
 			productName = Ubike;
-			productReference = F4892885191DEDDD004092E7 /* Ubike.app */;
+			productReference = F4892885191DEDDD004092E7 /* Bikeable.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F489289F191DEDDD004092E7 /* UbikeTests */ = {
@@ -386,7 +409,7 @@
 				ORGANIZATIONNAME = wpsteak;
 				TargetAttributes = {
 					F4892884191DEDDD004092E7 = {
-						DevelopmentTeam = 56959W98RQ;
+						DevelopmentTeam = 386TKAPNE7;
 					};
 					F489289F191DEDDD004092E7 = {
 						TestTargetID = F4892884191DEDDD004092E7;
@@ -416,6 +439,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F477FB7D191E4485009A6A47 /* Icon.png in Resources */,
+				F4B00718191E385900AF4902 /* points.json in Resources */,
 				F4892893191DEDDD004092E7 /* InfoPlist.strings in Resources */,
 				B28CE3C2191E39CB0018CB41 /* dataTo101.json in Resources */,
 				F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */,
@@ -429,10 +454,14 @@
 				F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */,
 				F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */,
 				B28CE3C4191E3F730018CB41 /* bikeshop.json in Resources */,
+				F477FB7F191E4503009A6A47 /* icon120.png in Resources */,
+				B28CE3C6191E48920018CB41 /* dataTo101-2.json in Resources */,
 				F4B0070D191E35C300AF4902 /* bike_bg-01.png in Resources */,
+				F477FB83191E45A0009A6A47 /* cloud_white.png in Resources */,
 				F4B0070F191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png in Resources */,
 				F4B0070E191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png in Resources */,
 				B28CE3BD191E22A20018CB41 /* SCMainViewController.xib in Resources */,
+				F477FB82191E45A0009A6A47 /* bike_image-01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +522,7 @@
 				F4B006F1191E05E300AF4902 /* MVActivity.m in Sources */,
 				F4B006F7191E05E300AF4902 /* MVLocation.m in Sources */,
 				F4DECFCE191DFF1600CD25B3 /* NSObject+LogProperties.m in Sources */,
+				F4B0071B191E3D2B00AF4902 /* SCTool.m in Sources */,
 				F4892895191DEDDD004092E7 /* main.m in Sources */,
 				F4B006FE191E05E300AF4902 /* MVUser.m in Sources */,
 				F4B006FB191E05E300AF4902 /* MVSummary.m in Sources */,
@@ -628,7 +658,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ubike/Ubike-Prefix.pch";
 				INFOPLIST_FILE = "Ubike/Ubike-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bikeable;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -645,7 +675,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ubike/Ubike-Prefix.pch";
 				INFOPLIST_FILE = "Ubike/Ubike-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Bikeable;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
