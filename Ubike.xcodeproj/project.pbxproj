@@ -40,6 +40,17 @@
 		F4B006FD191E05E300AF4902 /* MVTrackPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B006EA191E05E300AF4902 /* MVTrackPoint.m */; };
 		F4B006FE191E05E300AF4902 /* MVUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B006EC191E05E300AF4902 /* MVUser.m */; };
 		F4B006FF191E05E300AF4902 /* MovesAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B006EE191E05E300AF4902 /* MovesAPI.m */; };
+		F4B0070C191E35C300AF4902 /* bike-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00701191E35C300AF4902 /* bike-01.png */; };
+		F4B0070D191E35C300AF4902 /* bike_bg-01.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00702191E35C300AF4902 /* bike_bg-01.png */; };
+		F4B0070E191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00703191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png */; };
+		F4B0070F191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00704191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png */; };
+		F4B00710191E35C300AF4902 /* icon_0002_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00705191E35C300AF4902 /* icon_0002_Vector-Smart-Object.png */; };
+		F4B00711191E35C300AF4902 /* icon_0003_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00706191E35C300AF4902 /* icon_0003_Vector-Smart-Object.png */; };
+		F4B00712191E35C300AF4902 /* icon_0004_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00707191E35C300AF4902 /* icon_0004_Vector-Smart-Object.png */; };
+		F4B00713191E35C300AF4902 /* icon_0005_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00708191E35C300AF4902 /* icon_0005_Vector-Smart-Object.png */; };
+		F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */; };
+		F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */; };
+		F4B00716191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */; };
 		F4DECFCA191DFA7100CD25B3 /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */; };
 		F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */; };
 		F4DECFCE191DFF1600CD25B3 /* NSObject+LogProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFCD191DFF1600CD25B3 /* NSObject+LogProperties.m */; };
@@ -112,6 +123,17 @@
 		F4B006EC191E05E300AF4902 /* MVUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVUser.m; sourceTree = "<group>"; };
 		F4B006ED191E05E300AF4902 /* MovesAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovesAPI.h; sourceTree = "<group>"; };
 		F4B006EE191E05E300AF4902 /* MovesAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovesAPI.m; sourceTree = "<group>"; };
+		F4B00701191E35C300AF4902 /* bike-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike-01.png"; sourceTree = "<group>"; };
+		F4B00702191E35C300AF4902 /* bike_bg-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_bg-01.png"; sourceTree = "<group>"; };
+		F4B00703191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0000_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00704191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0001_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00705191E35C300AF4902 /* icon_0002_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0002_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00706191E35C300AF4902 /* icon_0003_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0003_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00707191E35C300AF4902 /* icon_0004_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0004_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00708191E35C300AF4902 /* icon_0005_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0005_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0006_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0007_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0008_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4DECFC7191DFA7100CD25B3 /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoginViewController.h; sourceTree = "<group>"; };
 		F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginViewController.m; sourceTree = "<group>"; };
 		F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCLoginViewController.xib; sourceTree = "<group>"; };
@@ -147,6 +169,7 @@
 		F489287C191DEDDD004092E7 = {
 			isa = PBXGroup;
 			children = (
+				F4B00700191E35C300AF4902 /* Images */,
 				F4B006C9191E05E200AF4902 /* Library */,
 				F489288E191DEDDD004092E7 /* Ubike */,
 				F48928A7191DEDDD004092E7 /* UbikeTests */,
@@ -291,6 +314,24 @@
 			path = models;
 			sourceTree = "<group>";
 		};
+		F4B00700191E35C300AF4902 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F4B00701191E35C300AF4902 /* bike-01.png */,
+				F4B00702191E35C300AF4902 /* bike_bg-01.png */,
+				F4B00703191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png */,
+				F4B00704191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png */,
+				F4B00705191E35C300AF4902 /* icon_0002_Vector-Smart-Object.png */,
+				F4B00706191E35C300AF4902 /* icon_0003_Vector-Smart-Object.png */,
+				F4B00707191E35C300AF4902 /* icon_0004_Vector-Smart-Object.png */,
+				F4B00708191E35C300AF4902 /* icon_0005_Vector-Smart-Object.png */,
+				F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */,
+				F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */,
+				F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -342,7 +383,7 @@
 				ORGANIZATIONNAME = wpsteak;
 				TargetAttributes = {
 					F4892884191DEDDD004092E7 = {
-						DevelopmentTeam = 386TKAPNE7;
+						DevelopmentTeam = 56959W98RQ;
 					};
 					F489289F191DEDDD004092E7 = {
 						TestTargetID = F4892884191DEDDD004092E7;
@@ -373,9 +414,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4892893191DEDDD004092E7 /* InfoPlist.strings in Resources */,
+<<<<<<< HEAD
 				B28CE3C2191E39CB0018CB41 /* dataTo101.json in Resources */,
+=======
+				F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */,
+				F4B00713191E35C300AF4902 /* icon_0005_Vector-Smart-Object.png in Resources */,
+				F4B0070C191E35C300AF4902 /* bike-01.png in Resources */,
+				F4B00710191E35C300AF4902 /* icon_0002_Vector-Smart-Object.png in Resources */,
+				F4B00711191E35C300AF4902 /* icon_0003_Vector-Smart-Object.png in Resources */,
+				F4B00712191E35C300AF4902 /* icon_0004_Vector-Smart-Object.png in Resources */,
+				F4B00716191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png in Resources */,
+>>>>>>> 101673f49f42dcb569016cc17aafef195cc8b583
 				F489289B191DEDDD004092E7 /* Images.xcassets in Resources */,
 				F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */,
+				F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */,
+				F4B0070D191E35C300AF4902 /* bike_bg-01.png in Resources */,
+				F4B0070F191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png in Resources */,
+				F4B0070E191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png in Resources */,
 				B28CE3BD191E22A20018CB41 /* SCMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
