@@ -18,3 +18,5 @@ docset-installed.txt
 .DS_Store
  
 Podfile.lock
+
+Pods/
