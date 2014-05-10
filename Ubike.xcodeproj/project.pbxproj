@@ -11,6 +11,7 @@
 		B28CE3BC191E22A20018CB41 /* SCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28CE3BA191E22A20018CB41 /* SCMainViewController.m */; };
 		B28CE3BD191E22A20018CB41 /* SCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */; };
 		B28CE3C2191E39CB0018CB41 /* dataTo101.json in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3C1191E39CB0018CB41 /* dataTo101.json */; };
+		B28CE3C4191E3F730018CB41 /* bikeshop.json in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3C3191E3F730018CB41 /* bikeshop.json */; };
 		F4892889191DEDDD004092E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4892888191DEDDD004092E7 /* Foundation.framework */; };
 		F489288B191DEDDD004092E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288A191DEDDD004092E7 /* CoreGraphics.framework */; };
 		F489288D191DEDDD004092E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288C191DEDDD004092E7 /* UIKit.framework */; };
@@ -71,6 +72,7 @@
 		B28CE3BA191E22A20018CB41 /* SCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMainViewController.m; sourceTree = "<group>"; };
 		B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCMainViewController.xib; sourceTree = "<group>"; };
 		B28CE3C1191E39CB0018CB41 /* dataTo101.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataTo101.json; sourceTree = "<group>"; };
+		B28CE3C3191E3F730018CB41 /* bikeshop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bikeshop.json; sourceTree = "<group>"; };
 		CF99054C05434CB1BFD3B075 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EEE886B64F1F4ED59991D62C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4892885191DEDDD004092E7 /* Ubike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubike.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -223,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				F4892890191DEDDD004092E7 /* Ubike-Info.plist */,
+				B28CE3C3191E3F730018CB41 /* bikeshop.json */,
 				B28CE3C1191E39CB0018CB41 /* dataTo101.json */,
 				F4892891191DEDDD004092E7 /* InfoPlist.strings */,
 				F4892894191DEDDD004092E7 /* main.m */,
@@ -425,6 +428,7 @@
 				F489289B191DEDDD004092E7 /* Images.xcassets in Resources */,
 				F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */,
 				F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */,
+				B28CE3C4191E3F730018CB41 /* bikeshop.json in Resources */,
 				F4B0070D191E35C300AF4902 /* bike_bg-01.png in Resources */,
 				F4B0070F191E35C300AF4902 /* icon_0001_Vector-Smart-Object.png in Resources */,
 				F4B0070E191E35C300AF4902 /* icon_0000_Vector-Smart-Object.png in Resources */,

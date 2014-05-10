@@ -65,7 +65,7 @@
     [self loadRoutePoints];
     [self drawtotaipei101];
     
-    
+    [self bikeshop];
 
     // Do any additional setup after loading the view from its nib.
 }
@@ -139,7 +139,7 @@
     }
     GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
     polyline.strokeColor=[UIColor colorWithRed:0.792157F green:0.046228F blue:0.055991F alpha:1.0F];
-    polyline.strokeWidth=3;
+    polyline.strokeWidth=5;
     polyline.map=self.mapView;
 }
 
@@ -172,19 +172,24 @@
     
 //    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"start_location"];
     
-    PFGeoPoint *tpos=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"start_location"]];
-    PFGeoPoint *tpoe=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"end_location"]];
+//    PFGeoPoint *tpos=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"start_location"]];
+//    PFGeoPoint *tpoe=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"end_location"]];
+//    
     
-    [arr addObject:tpos];
-    for (NSDictionary* step in JSONObject[@"routes"][0][@"legs"][0][@"steps"]) {
-        PFGeoPoint *pos=[self toPoint:step[@"start_location"]];
-        PFGeoPoint *poe=[self toPoint:step[@"end_location"]];
-        
-        [arr addObject:pos];
-        [arr addObject:poe];
+    
+    for (NSDictionary* legs in JSONObject[@"routes"][0][@"legs"]) {
+        PFGeoPoint *tpos=[self toPoint:legs[@"start_location"]];
+        PFGeoPoint *tpoe=[self toPoint:legs[@"end_location"]];
+        [arr addObject:tpos];
+        for (NSDictionary* step in legs[@"steps"]) {
+            PFGeoPoint *pos=[self toPoint:step[@"start_location"]];
+            PFGeoPoint *poe=[self toPoint:step[@"end_location"]];
+            
+            [arr addObject:pos];
+            [arr addObject:poe];
+        }
+        [arr addObject:tpoe];
     }
-    [arr addObject:tpoe];
-    
     return arr;
 }
 
@@ -195,5 +200,37 @@
     po.longitude=[dic[@"lng"] doubleValue];
     return po;
 }
+
+
+-(NSMutableArray *) bikeshop
+{
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"bikeshop" ofType:@"json"];
+    
+    // Load the file into an NSData object called JSONData
+    
+    NSError *error = nil;
+    
+    NSData *JSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:&error];
+    
+    // Create an Objective-C object from JSON Data
+    
+    id JSONObject = [NSJSONSerialization
+                     JSONObjectWithData:JSONData
+                     options:NSJSONReadingAllowFragments
+                     error:&error];
+
+    NSMutableArray *arr=[[NSMutableArray alloc] init];
+    
+    for (NSDictionary* shop in JSONObject) {
+        PFObject *routes = [PFObject objectWithClassName:@"BikeShop"];
+        routes[@"name"]=shop[@"name"];
+        routes[@"address"]=shop[@"address"];
+        routes[@"location"]=[PFGeoPoint geoPointWithLatitude:[shop[@"latitude"] doubleValue] longitude:[shop[@"longitude"] doubleValue]];
+        [arr addObject:routes];
+    }
+    
+    return arr;
+}
+
 
 @end
