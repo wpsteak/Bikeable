@@ -78,6 +78,11 @@
 
 - (IBAction)requestDayStorylineAction:(id)sender {
     
+//    [[MovesAPI sharedInstance] getUserSuccess:^(MVUser *user) {
+//       user
+//    } failure:^(NSError *error) {
+//        
+//    }];
     [[MovesAPI sharedInstance] getWeekStoryLineByDate:[NSDate date]
                                           trackPoints:YES
                                               success:^(NSArray *storyLines) {

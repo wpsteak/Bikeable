@@ -1,0 +1,238 @@
+
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 25.0416424,
+               "lng" : 121.565456
+            },
+            "southwest" : {
+               "lat" : 25.0335998,
+               "lng" : 121.5373609
+            }
+         },
+         "copyrights" : "地圖資料©2014 Google, Kingway",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "4.3 公里",
+                  "value" : 4291
+               },
+               "duration" : {
+                  "text" : "11 分",
+                  "value" : 650
+               },
+               "end_address" : "110台灣台北市信義區台北101",
+               "end_location" : {
+                  "lat" : 25.0335998,
+                  "lng" : 121.5653957
+               },
+               "start_address" : "106台灣台北市大安區仁愛路三段55號",
+               "start_location" : {
+                  "lat" : 25.0384227,
+                  "lng" : 121.5398762
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "94 公尺",
+                        "value" : 94
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 11
+                     },
+                     "end_location" : {
+                        "lat" : 25.0384327,
+                        "lng" : 121.5389454
+                     },
+                     "html_instructions" : "往\u003cb\u003e西\u003c/b\u003e走\u003cb\u003e仁愛路三段\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ciywCggydVAnA?hB"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0384227,
+                        "lng" : 121.5398762
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 公里",
+                        "value" : 427
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 63
+                     },
+                     "end_location" : {
+                        "lat" : 25.0416424,
+                        "lng" : 121.5373609
+                     },
+                     "html_instructions" : "接著走\u003cb\u003e建國南路一段\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "eiywCmaydVA~AELADOFU@k@DYDmCRe@Li@ReCv@gDdA"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0384327,
+                        "lng" : 121.5389454
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.7 公里",
+                        "value" : 2714
+                     },
+                     "duration" : {
+                        "text" : "6 分",
+                        "value" : 370
+                     },
+                     "end_location" : {
+                        "lat" : 25.0411389,
+                        "lng" : 121.5642979
+                     },
+                     "html_instructions" : "於\u003cb\u003e忠孝東路三段/台5線\u003c/b\u003e向\u003cb\u003e右\u003c/b\u003e轉\u003cdiv style=\"font-size:0.9em\"\u003e繼續沿著台5線前進\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "g}ywCowxdVDsM?sABuF?s@@oD@{ABiC?u@@iB?i@?uB@mDBuEFqG?K@[?O?k@?S@iBD_FDqEBiFB{E@yAB{K@c@BsD?G?EHyJDkGBmB?iB@wA?g@?S@kDDyB"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0416424,
+                        "lng" : 121.5373609
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 公里",
+                        "value" : 140
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 25.0400313,
+                        "lng" : 121.5636457
+                     },
+                     "html_instructions" : "於\u003cb\u003e基隆路一段\u003c/b\u003e向\u003cb\u003e右\u003c/b\u003e轉",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "czywC{_~dVdD~Av@`@"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0411389,
+                        "lng" : 121.5642979
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 公里",
+                        "value" : 100
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 25.0391518,
+                        "lng" : 121.5635274
+                     },
+                     "html_instructions" : "稍向\u003cb\u003e左\u003c/b\u003e轉後，繼續朝\u003cb\u003e基隆路一段\u003c/b\u003e前進",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "esywCy{}dVfB^fAG"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0400313,
+                        "lng" : 121.5636457
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 公里",
+                        "value" : 359
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 54
+                     },
+                     "end_location" : {
+                        "lat" : 25.0359207,
+                        "lng" : 121.5634529
+                     },
+                     "html_instructions" : "接著走\u003cb\u003e市府路\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "umywCa{}dVvHDV@tHF"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0391518,
+                        "lng" : 121.5635274
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 公里",
+                        "value" : 202
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 46
+                     },
+                     "end_location" : {
+                        "lat" : 25.0358914,
+                        "lng" : 121.565456
+                     },
+                     "html_instructions" : "於\u003cb\u003e松壽路\u003c/b\u003e向\u003cb\u003e左\u003c/b\u003e轉",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "oyxwCqz}dV?a@@iA?{@@mC@{A"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0359207,
+                        "lng" : 121.5634529
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 公里",
+                        "value" : 255
+                     },
+                     "duration" : {
+                        "text" : "1 分",
+                        "value" : 62
+                     },
+                     "end_location" : {
+                        "lat" : 25.0335998,
+                        "lng" : 121.5653957
+                     },
+                     "html_instructions" : "在第 1 個右轉路口向\u003cb\u003e右\u003c/b\u003e轉，走\u003cb\u003e松智路\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003e目的地在右邊\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "iyxwCcg~dVhEBnDDnA@"
+                     },
+                     "start_location" : {
+                        "lat" : 25.0358914,
+                        "lng" : 121.565456
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ciywCggydVAxDA~AELQLaAFgDXoA`@mH|BDgPFuPDsI@cHJgN@cBLoPL{\\Xca@B_IDyBdD~Av@`@fB^fAGvHDlIHBuH@{AhEB~FF"
+         },
+         "summary" : "台5線",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
