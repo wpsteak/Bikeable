@@ -51,6 +51,7 @@
 		F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */; };
 		F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */; };
 		F4B00716191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */; };
+		F4B00718191E385900AF4902 /* points.json in Resources */ = {isa = PBXBuildFile; fileRef = F4B00717191E385900AF4902 /* points.json */; };
 		F4DECFCA191DFA7100CD25B3 /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */; };
 		F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */; };
 		F4DECFCE191DFF1600CD25B3 /* NSObject+LogProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFCD191DFF1600CD25B3 /* NSObject+LogProperties.m */; };
@@ -134,6 +135,7 @@
 		F4B00709191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0006_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0007_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0008_Vector-Smart-Object.png"; sourceTree = "<group>"; };
+		F4B00717191E385900AF4902 /* points.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = points.json; sourceTree = "<group>"; };
 		F4DECFC7191DFA7100CD25B3 /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoginViewController.h; sourceTree = "<group>"; };
 		F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginViewController.m; sourceTree = "<group>"; };
 		F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCLoginViewController.xib; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 		F489288F191DEDDD004092E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4B00717191E385900AF4902 /* points.json */,
 				F4892890191DEDDD004092E7 /* Ubike-Info.plist */,
 				B28CE3C1191E39CB0018CB41 /* dataTo101.json */,
 				F4892891191DEDDD004092E7 /* InfoPlist.strings */,
@@ -413,6 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B00718191E385900AF4902 /* points.json in Resources */,
 				F4892893191DEDDD004092E7 /* InfoPlist.strings in Resources */,
 				B28CE3C2191E39CB0018CB41 /* dataTo101.json in Resources */,
 				F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */,
