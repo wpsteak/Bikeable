@@ -9,7 +9,9 @@
 #import "SCAppDelegate.h"
 #import "MovesAPI.h"
 #import "SCLoginViewController.h"
+#import "SCMainViewController.h"
 #import <Parse/Parse.h>
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation SCAppDelegate
 
@@ -21,10 +23,14 @@
     [[MovesAPI sharedInstance] setShareMovesOauthClientId:@"IJg69GS6DEqZUXoW57zcAZRNPPggjg_6"
                                         oauthClientSecret:@"73VJ389fUwgP013i0qeZx9h5Ykk1GU70c19N33Wmrja2300Xb8t0853lKFAp7gqA"
                                         callbackUrlScheme:@"CityBike"];
-
-    SCLoginViewController *loginViewController = [[SCLoginViewController alloc] initWithNibName:@"SCLoginViewController" bundle:nil];
     
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    [GMSServices provideAPIKey:@"AIzaSyA0fm2XcANWwxF23Mhf4LyDUpqWrFLwBBc"];
+
+//    SCLoginViewController *loginViewController = [[SCLoginViewController alloc] initWithNibName:@"SCLoginViewController" bundle:nil];
+    
+    SCMainViewController *mainViewController=[[SCMainViewController alloc] initWithNibName:@"SCMainViewController" bundle:nil];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = navigationController;

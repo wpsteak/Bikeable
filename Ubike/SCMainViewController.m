@@ -7,8 +7,11 @@
 //
 
 #import "SCMainViewController.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @interface SCMainViewController ()
+
+@property (weak, nonatomic) GMSMapView *mapView;
 
 @end
 
@@ -26,6 +29,41 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.navigationController.title=@"Bikeable";
+    
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.86
+                                                            longitude:151.20
+                                                                 zoom:6];
+    CGRect frame=CGRectMake(0, 0, 300, 300);
+    self.mapView = [GMSMapView mapWithFrame:frame camera:camera];
+    self.mapView.myLocationEnabled = YES;
+    [self.view addSubview:self.mapView];
+    
+    // Creates a marker in the center of the map.
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(-33.86, 151.20);
+    marker.title = @"Sydney";
+    marker.snippet = @"Australia";
+    marker.map = self.mapView;
+    
+    
+    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(51.5, -0.127);
+    GMSMarker *london = [GMSMarker markerWithPosition:position];
+    london.title = @"London";
+    
+    london.icon = [UIImage imageNamed:@"house"];
+    london.map = self.mapView;
+    
+    
+    GMSMutablePath *path = [GMSMutablePath path];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.85, 151.20)];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.70, 151.40)];
+    [path addCoordinate:CLLocationCoordinate2DMake(-33.73, 151.41)];
+    GMSPolyline *polyline = [GMSPolyline polylineWithPath:path];
+    polyline.strokeColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"pin-01.png"]];
+    
+    polyline.map=self.mapView;
     // Do any additional setup after loading the view from its nib.
 }
 
