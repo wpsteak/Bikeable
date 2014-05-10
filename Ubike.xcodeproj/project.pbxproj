@@ -52,6 +52,7 @@
 		F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */; };
 		F4B00716191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */; };
 		F4B00718191E385900AF4902 /* points.json in Resources */ = {isa = PBXBuildFile; fileRef = F4B00717191E385900AF4902 /* points.json */; };
+		F4B0071B191E3D2B00AF4902 /* SCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B0071A191E3D2B00AF4902 /* SCTool.m */; };
 		F4DECFCA191DFA7100CD25B3 /* SCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */; };
 		F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */; };
 		F4DECFCE191DFF1600CD25B3 /* NSObject+LogProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DECFCD191DFF1600CD25B3 /* NSObject+LogProperties.m */; };
@@ -136,6 +137,8 @@
 		F4B0070A191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0007_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4B0070B191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_0008_Vector-Smart-Object.png"; sourceTree = "<group>"; };
 		F4B00717191E385900AF4902 /* points.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = points.json; sourceTree = "<group>"; };
+		F4B00719191E3D2B00AF4902 /* SCTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTool.h; sourceTree = "<group>"; };
+		F4B0071A191E3D2B00AF4902 /* SCTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTool.m; sourceTree = "<group>"; };
 		F4DECFC7191DFA7100CD25B3 /* SCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLoginViewController.h; sourceTree = "<group>"; };
 		F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLoginViewController.m; sourceTree = "<group>"; };
 		F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCLoginViewController.xib; sourceTree = "<group>"; };
@@ -205,6 +208,8 @@
 		F489288E191DEDDD004092E7 /* Ubike */ = {
 			isa = PBXGroup;
 			children = (
+				F4B00719191E3D2B00AF4902 /* SCTool.h */,
+				F4B0071A191E3D2B00AF4902 /* SCTool.m */,
 				F4DECFCC191DFF1600CD25B3 /* NSObject+LogProperties.h */,
 				F4DECFCD191DFF1600CD25B3 /* NSObject+LogProperties.m */,
 				F4892897191DEDDD004092E7 /* SCAppDelegate.h */,
@@ -212,11 +217,11 @@
 				F4DECFC7191DFA7100CD25B3 /* SCLoginViewController.h */,
 				F4DECFC8191DFA7100CD25B3 /* SCLoginViewController.m */,
 				F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */,
-				F489289A191DEDDD004092E7 /* Images.xcassets */,
-				F489288F191DEDDD004092E7 /* Supporting Files */,
 				B28CE3B9191E22A20018CB41 /* SCMainViewController.h */,
 				B28CE3BA191E22A20018CB41 /* SCMainViewController.m */,
 				B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */,
+				F489289A191DEDDD004092E7 /* Images.xcassets */,
+				F489288F191DEDDD004092E7 /* Supporting Files */,
 			);
 			path = Ubike;
 			sourceTree = "<group>";
@@ -493,6 +498,7 @@
 				F4B006F1191E05E300AF4902 /* MVActivity.m in Sources */,
 				F4B006F7191E05E300AF4902 /* MVLocation.m in Sources */,
 				F4DECFCE191DFF1600CD25B3 /* NSObject+LogProperties.m in Sources */,
+				F4B0071B191E3D2B00AF4902 /* SCTool.m in Sources */,
 				F4892895191DEDDD004092E7 /* main.m in Sources */,
 				F4B006FE191E05E300AF4902 /* MVUser.m in Sources */,
 				F4B006FB191E05E300AF4902 /* MVSummary.m in Sources */,
