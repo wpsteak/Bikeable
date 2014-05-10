@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A3E6A43A610A45CF930DBE64 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE886B64F1F4ED59991D62C /* libPods.a */; };
+		B28CE3BC191E22A20018CB41 /* SCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B28CE3BA191E22A20018CB41 /* SCMainViewController.m */; };
+		B28CE3BD191E22A20018CB41 /* SCMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */; };
 		F4892889191DEDDD004092E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4892888191DEDDD004092E7 /* Foundation.framework */; };
 		F489288B191DEDDD004092E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288A191DEDDD004092E7 /* CoreGraphics.framework */; };
 		F489288D191DEDDD004092E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288C191DEDDD004092E7 /* UIKit.framework */; };
@@ -53,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B28CE3B9191E22A20018CB41 /* SCMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMainViewController.h; sourceTree = "<group>"; };
+		B28CE3BA191E22A20018CB41 /* SCMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMainViewController.m; sourceTree = "<group>"; };
+		B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCMainViewController.xib; sourceTree = "<group>"; };
 		CF99054C05434CB1BFD3B075 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		EEE886B64F1F4ED59991D62C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4892885191DEDDD004092E7 /* Ubike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubike.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +187,9 @@
 				F4DECFC9191DFA7100CD25B3 /* SCLoginViewController.xib */,
 				F489289A191DEDDD004092E7 /* Images.xcassets */,
 				F489288F191DEDDD004092E7 /* Supporting Files */,
+				B28CE3B9191E22A20018CB41 /* SCMainViewController.h */,
+				B28CE3BA191E22A20018CB41 /* SCMainViewController.m */,
+				B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */,
 			);
 			path = Ubike;
 			sourceTree = "<group>";
@@ -331,7 +339,7 @@
 				ORGANIZATIONNAME = wpsteak;
 				TargetAttributes = {
 					F4892884191DEDDD004092E7 = {
-						DevelopmentTeam = 56959W98RQ;
+						DevelopmentTeam = 386TKAPNE7;
 					};
 					F489289F191DEDDD004092E7 = {
 						TestTargetID = F4892884191DEDDD004092E7;
@@ -364,6 +372,7 @@
 				F4892893191DEDDD004092E7 /* InfoPlist.strings in Resources */,
 				F489289B191DEDDD004092E7 /* Images.xcassets in Resources */,
 				F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */,
+				B28CE3BD191E22A20018CB41 /* SCMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4B006F8191E05E300AF4902 /* MVPlace.m in Sources */,
+				B28CE3BC191E22A20018CB41 /* SCMainViewController.m in Sources */,
 				F4892899191DEDDD004092E7 /* SCAppDelegate.m in Sources */,
 				F4B006F0191E05E300AF4902 /* MVOAuthViewController.m in Sources */,
 				F4B006F4191E05E300AF4902 /* MVDailyPlace.m in Sources */,
