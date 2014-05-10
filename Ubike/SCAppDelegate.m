@@ -7,13 +7,23 @@
 //
 
 #import "SCAppDelegate.h"
+#import "MovesAPI.h"
+#import "SCLoginViewController.h"
 
 @implementation SCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[MovesAPI sharedInstance] setShareMovesOauthClientId:@"IJg69GS6DEqZUXoW57zcAZRNPPggjg_6"
+                                        oauthClientSecret:@"73VJ389fUwgP013i0qeZx9h5Ykk1GU70c19N33Wmrja2300Xb8t0853lKFAp7gqA"
+                                        callbackUrlScheme:@"CityBike"];
+
+    SCLoginViewController *loginViewController = [[SCLoginViewController alloc] initWithNibName:@"SCLoginViewController" bundle:nil];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -44,6 +54,20 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation
+{
+    if ([[MovesAPI sharedInstance] canHandleOpenUrl:url]) {
+        return YES;
+    }
+    // Other 3rdParty Apps Handle Url Method...
+    
+    
+    return NO;
 }
 
 @end
