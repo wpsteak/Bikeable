@@ -414,9 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4892893191DEDDD004092E7 /* InfoPlist.strings in Resources */,
-<<<<<<< HEAD
 				B28CE3C2191E39CB0018CB41 /* dataTo101.json in Resources */,
-=======
 				F4B00715191E35C300AF4902 /* icon_0007_Vector-Smart-Object.png in Resources */,
 				F4B00713191E35C300AF4902 /* icon_0005_Vector-Smart-Object.png in Resources */,
 				F4B0070C191E35C300AF4902 /* bike-01.png in Resources */,
@@ -424,7 +422,6 @@
 				F4B00711191E35C300AF4902 /* icon_0003_Vector-Smart-Object.png in Resources */,
 				F4B00712191E35C300AF4902 /* icon_0004_Vector-Smart-Object.png in Resources */,
 				F4B00716191E35C300AF4902 /* icon_0008_Vector-Smart-Object.png in Resources */,
->>>>>>> 101673f49f42dcb569016cc17aafef195cc8b583
 				F489289B191DEDDD004092E7 /* Images.xcassets in Resources */,
 				F4DECFCB191DFA7100CD25B3 /* SCLoginViewController.xib in Resources */,
 				F4B00714191E35C300AF4902 /* icon_0006_Vector-Smart-Object.png in Resources */,
