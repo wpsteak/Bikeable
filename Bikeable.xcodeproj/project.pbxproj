@@ -28,7 +28,7 @@
 		F48928A3191DEDDD004092E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4892888191DEDDD004092E7 /* Foundation.framework */; };
 		F48928A4191DEDDD004092E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F489288C191DEDDD004092E7 /* UIKit.framework */; };
 		F48928AC191DEDDD004092E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48928AA191DEDDD004092E7 /* InfoPlist.strings */; };
-		F48928AE191DEDDD004092E7 /* UbikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48928AD191DEDDD004092E7 /* UbikeTests.m */; };
+		F48928AE191DEDDD004092E7 /* BikeableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F48928AD191DEDDD004092E7 /* BikeableTests.m */; };
 		F4B006EF191E05E300AF4902 /* DFDateFormatterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B006CD191E05E300AF4902 /* DFDateFormatterFactory.m */; };
 		F4B006F0191E05E300AF4902 /* MVOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B006CF191E05E300AF4902 /* MVOAuthViewController.m */; };
 		F4B006F1191E05E300AF4902 /* MVActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B006D2191E05E300AF4902 /* MVActivity.m */; };
@@ -70,7 +70,7 @@
 			containerPortal = F489287D191DEDDD004092E7 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4892884191DEDDD004092E7;
-			remoteInfo = Ubike;
+			remoteInfo = Bikeable;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -91,18 +91,18 @@
 		F4892888191DEDDD004092E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F489288A191DEDDD004092E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F489288C191DEDDD004092E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F4892890191DEDDD004092E7 /* Ubike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ubike-Info.plist"; sourceTree = "<group>"; };
+		F4892890191DEDDD004092E7 /* Bikeable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bikeable-Info.plist"; sourceTree = "<group>"; };
 		F4892892191DEDDD004092E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4892894191DEDDD004092E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F4892896191DEDDD004092E7 /* Ubike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ubike-Prefix.pch"; sourceTree = "<group>"; };
+		F4892896191DEDDD004092E7 /* Bikeable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bikeable-Prefix.pch"; sourceTree = "<group>"; };
 		F4892897191DEDDD004092E7 /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
 		F4892898191DEDDD004092E7 /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
 		F489289A191DEDDD004092E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F48928A0191DEDDD004092E7 /* UbikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UbikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48928A0191DEDDD004092E7 /* BikeableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48928A1191DEDDD004092E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F48928A9191DEDDD004092E7 /* UbikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UbikeTests-Info.plist"; sourceTree = "<group>"; };
+		F48928A9191DEDDD004092E7 /* BikeableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BikeableTests-Info.plist"; sourceTree = "<group>"; };
 		F48928AB191DEDDD004092E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F48928AD191DEDDD004092E7 /* UbikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UbikeTests.m; sourceTree = "<group>"; };
+		F48928AD191DEDDD004092E7 /* BikeableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeableTests.m; sourceTree = "<group>"; };
 		F4B006CC191E05E300AF4902 /* DFDateFormatterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFDateFormatterFactory.h; sourceTree = "<group>"; };
 		F4B006CD191E05E300AF4902 /* DFDateFormatterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFDateFormatterFactory.m; sourceTree = "<group>"; };
 		F4B006CE191E05E300AF4902 /* MVOAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVOAuthViewController.h; sourceTree = "<group>"; };
@@ -188,8 +188,8 @@
 			children = (
 				F4B00700191E35C300AF4902 /* Images */,
 				F4B006C9191E05E200AF4902 /* Library */,
-				F489288E191DEDDD004092E7 /* Ubike */,
-				F48928A7191DEDDD004092E7 /* UbikeTests */,
+				F489288E191DEDDD004092E7 /* Bikeable */,
+				F48928A7191DEDDD004092E7 /* BikeableTests */,
 				F4892887191DEDDD004092E7 /* Frameworks */,
 				F4892886191DEDDD004092E7 /* Products */,
 				CF99054C05434CB1BFD3B075 /* Pods.xcconfig */,
@@ -200,7 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				F4892885191DEDDD004092E7 /* Bikeable.app */,
-				F48928A0191DEDDD004092E7 /* UbikeTests.xctest */,
+				F48928A0191DEDDD004092E7 /* BikeableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F489288E191DEDDD004092E7 /* Ubike */ = {
+		F489288E191DEDDD004092E7 /* Bikeable */ = {
 			isa = PBXGroup;
 			children = (
 				F4B00719191E3D2B00AF4902 /* SCTool.h */,
@@ -235,37 +235,37 @@
 				F489289A191DEDDD004092E7 /* Images.xcassets */,
 				F489288F191DEDDD004092E7 /* Supporting Files */,
 			);
-			path = Ubike;
+			path = Bikeable;
 			sourceTree = "<group>";
 		};
 		F489288F191DEDDD004092E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				F4B00717191E385900AF4902 /* points.json */,
-				F4892890191DEDDD004092E7 /* Ubike-Info.plist */,
+				F4892890191DEDDD004092E7 /* Bikeable-Info.plist */,
 				B28CE3C3191E3F730018CB41 /* bikeshop.json */,
 				B28CE3C1191E39CB0018CB41 /* dataTo101.json */,
 				B28CE3C5191E48920018CB41 /* dataTo101-2.json */,
 				F4892891191DEDDD004092E7 /* InfoPlist.strings */,
 				F4892894191DEDDD004092E7 /* main.m */,
-				F4892896191DEDDD004092E7 /* Ubike-Prefix.pch */,
+				F4892896191DEDDD004092E7 /* Bikeable-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F48928A7191DEDDD004092E7 /* UbikeTests */ = {
+		F48928A7191DEDDD004092E7 /* BikeableTests */ = {
 			isa = PBXGroup;
 			children = (
-				F48928AD191DEDDD004092E7 /* UbikeTests.m */,
+				F48928AD191DEDDD004092E7 /* BikeableTests.m */,
 				F48928A8191DEDDD004092E7 /* Supporting Files */,
 			);
-			path = UbikeTests;
+			path = BikeableTests;
 			sourceTree = "<group>";
 		};
 		F48928A8191DEDDD004092E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F48928A9191DEDDD004092E7 /* UbikeTests-Info.plist */,
+				F48928A9191DEDDD004092E7 /* BikeableTests-Info.plist */,
 				F48928AA191DEDDD004092E7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -361,9 +361,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4892884191DEDDD004092E7 /* Ubike */ = {
+		F4892884191DEDDD004092E7 /* Bikeable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F48928B1191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "Ubike" */;
+			buildConfigurationList = F48928B1191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "Bikeable" */;
 			buildPhases = (
 				E3D1030F534D4FBF8F26AB6F /* Check Pods Manifest.lock */,
 				F4892881191DEDDD004092E7 /* Sources */,
@@ -375,14 +375,14 @@
 			);
 			dependencies = (
 			);
-			name = Ubike;
-			productName = Ubike;
+			name = Bikeable;
+			productName = Bikeable;
 			productReference = F4892885191DEDDD004092E7 /* Bikeable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F489289F191DEDDD004092E7 /* UbikeTests */ = {
+		F489289F191DEDDD004092E7 /* BikeableTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F48928B4191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "UbikeTests" */;
+			buildConfigurationList = F48928B4191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "BikeableTests" */;
 			buildPhases = (
 				F489289C191DEDDD004092E7 /* Sources */,
 				F489289D191DEDDD004092E7 /* Frameworks */,
@@ -393,9 +393,9 @@
 			dependencies = (
 				F48928A6191DEDDD004092E7 /* PBXTargetDependency */,
 			);
-			name = UbikeTests;
-			productName = UbikeTests;
-			productReference = F48928A0191DEDDD004092E7 /* UbikeTests.xctest */;
+			name = BikeableTests;
+			productName = BikeableTests;
+			productReference = F48928A0191DEDDD004092E7 /* BikeableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -416,7 +416,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4892880191DEDDD004092E7 /* Build configuration list for PBXProject "Ubike" */;
+			buildConfigurationList = F4892880191DEDDD004092E7 /* Build configuration list for PBXProject "Bikeable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -428,8 +428,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4892884191DEDDD004092E7 /* Ubike */,
-				F489289F191DEDDD004092E7 /* UbikeTests */,
+				F4892884191DEDDD004092E7 /* Bikeable */,
+				F489289F191DEDDD004092E7 /* BikeableTests */,
 			);
 		};
 /* End PBXProject section */
@@ -543,7 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F48928AE191DEDDD004092E7 /* UbikeTests.m in Sources */,
+				F48928AE191DEDDD004092E7 /* BikeableTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +552,7 @@
 /* Begin PBXTargetDependency section */
 		F48928A6191DEDDD004092E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F4892884191DEDDD004092E7 /* Ubike */;
+			target = F4892884191DEDDD004092E7 /* Bikeable */;
 			targetProxy = F48928A5191DEDDD004092E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -656,8 +656,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ubike/Ubike-Prefix.pch";
-				INFOPLIST_FILE = "Ubike/Ubike-Info.plist";
+				GCC_PREFIX_HEADER = "Bikeable/Bikeable-Prefix.pch";
+				INFOPLIST_FILE = "Bikeable/Bikeable-Info.plist";
 				PRODUCT_NAME = Bikeable;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -673,8 +673,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ubike/Ubike-Prefix.pch";
-				INFOPLIST_FILE = "Ubike/Ubike-Info.plist";
+				GCC_PREFIX_HEADER = "Bikeable/Bikeable-Prefix.pch";
+				INFOPLIST_FILE = "Bikeable/Bikeable-Info.plist";
 				PRODUCT_NAME = Bikeable;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -684,20 +684,20 @@
 		F48928B5191DEDDD004092E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ubike.app/Ubike";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bikeable.app/Bikeable";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ubike/Ubike-Prefix.pch";
+				GCC_PREFIX_HEADER = "Bikeable/Bikeable-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UbikeTests/UbikeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BikeableTests/BikeableTests-Info.plist";
+				PRODUCT_NAME = BikeableTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -706,16 +706,16 @@
 		F48928B6191DEDDD004092E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ubike.app/Ubike";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bikeable.app/Bikeable";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ubike/Ubike-Prefix.pch";
-				INFOPLIST_FILE = "UbikeTests/UbikeTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Bikeable/Bikeable-Prefix.pch";
+				INFOPLIST_FILE = "BikeableTests/BikeableTests-Info.plist";
+				PRODUCT_NAME = BikeableTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -724,7 +724,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4892880191DEDDD004092E7 /* Build configuration list for PBXProject "Ubike" */ = {
+		F4892880191DEDDD004092E7 /* Build configuration list for PBXProject "Bikeable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F48928AF191DEDDD004092E7 /* Debug */,
@@ -733,7 +733,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F48928B1191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "Ubike" */ = {
+		F48928B1191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "Bikeable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F48928B2191DEDDD004092E7 /* Debug */,
@@ -742,7 +742,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F48928B4191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "UbikeTests" */ = {
+		F48928B4191DEDDD004092E7 /* Build configuration list for PBXNativeTarget "BikeableTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F48928B5191DEDDD004092E7 /* Debug */,
