@@ -232,7 +232,6 @@
 				B28CE3B9191E22A20018CB41 /* SCMainViewController.h */,
 				B28CE3BA191E22A20018CB41 /* SCMainViewController.m */,
 				B28CE3BB191E22A20018CB41 /* SCMainViewController.xib */,
-				B28CE3C5191E48920018CB41 /* dataTo101-2.json */,
 				F489289A191DEDDD004092E7 /* Images.xcassets */,
 				F489288F191DEDDD004092E7 /* Supporting Files */,
 			);
@@ -246,6 +245,7 @@
 				F4892890191DEDDD004092E7 /* Ubike-Info.plist */,
 				B28CE3C3191E3F730018CB41 /* bikeshop.json */,
 				B28CE3C1191E39CB0018CB41 /* dataTo101.json */,
+				B28CE3C5191E48920018CB41 /* dataTo101-2.json */,
 				F4892891191DEDDD004092E7 /* InfoPlist.strings */,
 				F4892894191DEDDD004092E7 /* main.m */,
 				F4892896191DEDDD004092E7 /* Ubike-Prefix.pch */,

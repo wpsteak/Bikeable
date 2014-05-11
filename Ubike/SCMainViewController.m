@@ -48,13 +48,11 @@
     self.view = self.mapView;
 //    [self.view addSubview:self.mapView];
     
-    // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(25.038450, 121.539915);
     marker.title = @"Start";
     marker.map = self.mapView;
    
-    // Creates a marker in the center of the map.
     UIImage *image = [UIImage imageNamed:@"icon_0001_Vector-Smart-Object"];
     UIImage *newImage = [SCTool imageWithImage:image scaledToSize:CGSizeMake(30, 48)];
     
@@ -63,14 +61,6 @@
     marker2.position = CLLocationCoordinate2DMake(25.0335998, 121.5653957);
     marker2.title = @"End";
     marker2.map = self.mapView;
-    
-    
-//    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(51.5, -0.127);
-//    GMSMarker *london = [GMSMarker markerWithPosition:position];
-//    london.title = @"London";
-//    
-//    london.icon = [UIImage imageNamed:@"house"];
-//    london.map = self.mapView;
     
     [self loadRoutePoints];
 
@@ -87,7 +77,7 @@
     //    [query whereKey:@"playerName" equalTo:@"Dan Stemkoski"];
     [query findObjectsInBackgroundWithBlock:^(NSArray *routes, NSError *error) {
         if (!error) {
-            NSLog(@"%d Routes", routes.count);
+            NSLog(@"%lu Routes", (unsigned long)routes.count);
             for (PFObject *route in routes) {
                 
                 NSString *routeId=route.objectId;
@@ -253,20 +243,8 @@
                      JSONObjectWithData:JSONData
                      options:NSJSONReadingAllowFragments
                      error:&error];
-
-//    JSONObject[@"routes"][0][@"legs"][0][@"start_location"];
-//    end_location
-    //    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"start_location"];
-    //    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"end_location"];
     
     NSMutableArray *arr=[[NSMutableArray alloc] init];
-    
-//    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"start_location"];
-    
-//    PFGeoPoint *tpos=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"start_location"]];
-//    PFGeoPoint *tpoe=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"end_location"]];
-//    
-    
     
     for (NSDictionary* legs in JSONObject[@"routes"][0][@"legs"]) {
         PFGeoPoint *tpos=[self toPoint:legs[@"start_location"]];
@@ -291,32 +269,16 @@
     
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"dataTo101-2" ofType:@"json"];
     
-    // Load the file into an NSData object called JSONData
-    
     NSError *error = nil;
     
     NSData *JSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:&error];
-    
-    // Create an Objective-C object from JSON Data
     
     id JSONObject = [NSJSONSerialization
                      JSONObjectWithData:JSONData
                      options:NSJSONReadingAllowFragments
                      error:&error];
     
-    //    JSONObject[@"routes"][0][@"legs"][0][@"start_location"];
-    //    end_location
-    //    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"start_location"];
-    //    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"end_location"];
-    
     NSMutableArray *arr=[[NSMutableArray alloc] init];
-    
-    //    JSONObject[@"routes"][0][@"legs"][0][@"steps"][i][@"start_location"];
-    
-    //    PFGeoPoint *tpos=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"start_location"]];
-    //    PFGeoPoint *tpoe=[self toPoint:JSONObject[@"routes"][0][@"legs"][0][@"end_location"]];
-    //
-    
     
     for (NSDictionary* legs in JSONObject[@"routes"][0][@"legs"]) {
         PFGeoPoint *tpos=[self toPoint:legs[@"start_location"]];
